@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ------------------- variable */
+
+:root {
+    --fuente1: 'Architects Daughter', cursive;
+    --fuente2: 'Bangers', cursive;
+    --verde: rgb(2, 133, 255);
+    --negro:  rgb(2, 1, 1);
+    --blanco: white;
+}
+
+/* ------------------- header */
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title{
+    font-size: 55px;
+    margin: 15px;
+    color: var(--negro);
+    font-family: var(--fuente2);
+}
+
+.header__menu{
+    list-style: none;
+    display: flex;
+}
+
+.header__menu--container {
+    margin-right: 20px;
+}
+
+.header__menu li {
+    margin: 15px;
+}
+
+.header__menu a {
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: var(--fuente1);
+}
+
+.header__menu a:hover {
+    color: var(--blanco);
+    transition: 400ms;
+}
+
+/* ------------------------- fin header */
+
+/* ------------------------- main */
+.main {
+    background-color: var(--verde);
+    width: 100%;
+    height: 781px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__title {
+    color: var(--negro);
+    font-size: 55px;
+    font-family: var(--fuente2);
+    margin-top: 170px;
+    padding-left: 23px;
+}
+
+.main__container hr {
+    width: 390px;
+}
+
+.main__container p {
+    color:var(--negro);
+    font-family: var(--fuente2);
+    font-size: 38px;
+}
+
+.main__button {
+    background-color: var(--negro);
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 70px;
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+}
+
+.main__button a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 25 px;
+    font-family: var(--fuente2);
+}
+
+.main__button:hover{
+    background-color: var(--blanco);
+    width: 350px;
+    margin-left: 50px;
+    transition: 500ms;
+}
+.main__button a:hover{
+    color: var(--negro);
+}
+/* intro */
+.intro {
+    background-color: var(--verde);
+}
+
+.blog {
+    margin: 90px 30%;
+    background-color: var(--verde);
+    font-family: var(--fuente1);
+}
+
+.contenido {
+    color: var(--negro);
+    text-align: center;
+}
